@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokédex</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600&family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="pokedex">
+      <div class="screen">
+        <h1 class="title" style="font-family: 'Barlow Condensed', sans-serif;">
+          Pokédex
+        </h1>
+        <button
+          class="nes-btn"
+          id="randomPokemonBtn"
+          style="font-family: 'Montserrat', sans-serif;"
+        >
+          Which Is My Pokémon?</button
+        ><br />
+        <div class="pokemon-list" id="pokemonList">
+          <!-- Pokemon data will be displayed here -->
+        </div>
+        <br />
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
